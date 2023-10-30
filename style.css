@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Varela&display=swap');
+
+body {
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 16px;
+  line-height: 1,5em;
+  background-color: #f7ecec;
+}
+
+.container {
+  width: 700px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.white-card {
+  text-align: center;
+  background-color: white;
+  padding: 2em;
+  margin: 2em auto;
+  border-radius: 10px;
+}
+
+ul{
+  padding: 0;
+  font-size: 3em;
+}
+
+li {
+  display: inline-block;
+}
+
+h1,
+h2 {
+  color: #723D46;
+  font-family: 'Varela', sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1,5em;
+}
+
+a {
+  color: #E26D5C;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #472D30;
+}
+
+.btn-red {
+  background-color: #E26D5C;
+  color: #f7ecec;
+  padding: 1em 2em;
+  border-radius: 4px;
+}
+
+p{
+  margin-bottom: 40px;
+}
